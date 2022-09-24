@@ -13,7 +13,7 @@
     </parent>
 
     <properties>
-        <spigot.version>1.19.2-R0.1-SNAPSHOT</spigot.version>
+        <spigot.version>1.19-R0.1-SNAPSHOT</spigot.version>
     </properties>
 
     <build>
@@ -69,8 +69,9 @@
 
     <repositories>
         <repository>
-            <id>spigotmc-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id> lss233-minecraft </id>
+            <name> Lss233's Minecraft Repository </name>
+            <url>https://lss233.littleservice.cn/repositories/minecraft</url>
         </repository>
         <repository>
             <id>sonatype</id>
@@ -83,7 +84,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>${spigot.version}</version>
+            <version>1.19.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <!-- NMS -->

@@ -69,8 +69,9 @@
 
     <repositories>
         <repository>
-            <id>spigotmc-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id> lss233-minecraft </id>
+            <name> Lss233's Minecraft Repository </name>
+            <url>https://lss233.littleservice.cn/repositories/minecraft</url>
         </repository>
         <repository>
             <id>sonatype</id>
